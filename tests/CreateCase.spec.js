@@ -4,9 +4,9 @@ test('Create a Case', async ({page})=>{
 
     await page.goto('https://login.salesforce.com/');
 
-    await page.fill("//input[@id='username']",'amulyakrishna.amul@cunning-panda-dnvp76.com' )
+    await page.fill("//input[@id='username']",'--add your username--' )
 
-    await page.fill("//input[@id='password']",'Jntuh*123' )
+    await page.fill("//input[@id='password']",'--add your password--' )
 
     await page.click("//input[@id='Login']")
 
